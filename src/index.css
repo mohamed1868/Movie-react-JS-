@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+
+:root{
+  --bg-main:#131722 ;
+  --light-bg:#fff ;
+  --main-color:#24baef ;
+}
+body{
+ background-color: var(--bg-main);
+ color: var(--light-bg);
+}
+a , a:hover{
+  text-decoration: none;
+  color: var(--light-bg);
+}
+input{
+  background-color: transparent !important;
+  color: var(--light-bg);
+  border-color:#fff ;
+  border-style: solid;
+  border-width: 0.5px !important;
+  border-radius: 5px;
+
+}
+.container-r{
+  color: #fff;
+  margin-left: 20%;
+  height: 700px;
+}
+.container-r p{
+  color: red;
+  letter-spacing: -0.5px;
+  font-size: 12px;
+
+}
+.container-r button{
+  background-color: var(--main-color);
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  
+}
+.Logout0{
+  cursor: pointer;
+}
+.photofilm{
+  height: 400px;
+
+
+
+}
+.filmp{
+  color: rgb(133 149 165 / 75%) !important;
+}
+.footer{
+  height: 50px;
+}
+.footer h6{
+  line-height: 1.6;
+  letter-spacing: 1px;
+  color: rgb(95, 89, 89);
+}
+.lipage{
+  cursor: pointer;
+}
